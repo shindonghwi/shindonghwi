@@ -2,8 +2,8 @@
 
 ![JAVA](https://img.shields.io/badge/JAVA-%E2%98%85%E2%98%85%E2%98%86%E2%98%86%E2%98%86-b8e9de?style=plastic&logo=Java&logoColor=white)
  
- ## I love it
- 
+<h2 align="center">☾⋆⁺₊⋆💙 Like it ! 💙⋆⁺₊⋆☾</h2>
+
 <p align="center">
  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/></a> 
  <img src="https://img.shields.io/badge/JAVA-007396?style=flat-square&logo=JAVA&logoColor=white"/></a>
@@ -17,6 +17,8 @@
  <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=CSS3&logoColor=white"/></a> 
  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black"/></a>
  </p> 
+ 
+<h2 align="center">☾⋆⁺₊⋆💙 the other 💙⋆⁺₊⋆☾</h2>
  
 <p align="center">
  <img src="https://img.shields.io/badge/OpenGL-5586A4?style=flat-square&logo=OpenGL&logoColor=white"/></a>  
