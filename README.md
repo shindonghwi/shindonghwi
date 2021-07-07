@@ -12,7 +12,7 @@
  
 <h2 align="center">☾⋆⁺₊⋆💙 hobby 💙⋆⁺₊⋆☾</h2>
 <p align="center">
- <img src="https://img.shields.io/badge/NVIDIA Jetson-76B900?style=flat-square&logo=NVIDIA Jetson&logoColor=white"/></a> 
+ <img src="https://img.shields.io/badge/NVIDIAJetson-76B900?style=flat-square&logo=NVIDIAJetson&logoColor=white"/></a> 
  <img src="https://img.shields.io/badge/Raspberry Pi-C51A4A?style=flat-square&logo=RaspberryPi&logoColor=white"/></a> 
  <img src="https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=Arduino&logoColor=white"/></a> 
  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=PHP&logoColor=white"/></a> 
