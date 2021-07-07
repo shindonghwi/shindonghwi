@@ -34,4 +34,4 @@
 </p>
 
 ### :mailbox_with_mail: Contacts
-- 📮  ** email ... ** [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:shindonghwi8940@gmail.com)](mailto:shindonghwi8940@gmail.com) or shindonghwi8940@gmail.com 
+- 📮  ** email 👉  [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:shindonghwi8940@gmail.com)](mailto:shindonghwi8940@gmail.com) or shindonghwi8940@gmail.com 
