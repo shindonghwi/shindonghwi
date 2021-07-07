@@ -4,7 +4,7 @@
  
  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shindonghwi)](https://github.com/anuraghazra/github-readme-stats)
  
-<h3 align="center">☾⋆⁺₊⋆💙 My Favority ! 💙⋆⁺₊⋆☾</h2>
+<h3 align="center"> My Favority ! 💪💪💪 </h2>
 <p align="center">
  <img src="https://img.shields.io/badge/Kotlin-0095D5?style=flat-square&logo=Kotlin&logoColor=white"/></a>
  <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=Android&logoColor=white"/></a> 
@@ -12,14 +12,14 @@
  <img src="https://img.shields.io/badge/JAVA-007396?style=flat-square&logo=JAVA&logoColor=white"/></a>
 </p> 
  
-<h4 align="center">☾⋆⁺₊⋆💙 hobby 💙⋆⁺₊⋆☾</h2>
+<h4 align="center">hobby 💕</h2>
 <p align="center">
  <img src="https://img.shields.io/badge/NVIDIA Jetson Nano-76B900?style=flat-square&logo=NVIDIAJetson&logoColor=white"/></a> 
  <img src="https://img.shields.io/badge/Raspberry Pi-C51A4A?style=flat-square&logo=RaspberryPi&logoColor=white"/></a> 
  <img src="https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=Arduino&logoColor=white"/></a> 
 </p>
 
-<h5 align="center">☾⋆⁺₊⋆💙 other abilities 💙⋆⁺₊⋆☾</h2>
+<h5 align="center">👉 other abilities </h2>
 <p align="center">
  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=OpenCV&logoColor=white"/></a> 
  <img src="https://img.shields.io/badge/OpenGL-5586A4?style=flat-square&logo=OpenGL&logoColor=white"/></a>  
@@ -33,4 +33,4 @@
  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black"/></a>
 </p>
 
-📞
+📫 : shindonghwi8940@gmail.com
