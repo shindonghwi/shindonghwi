@@ -33,4 +33,5 @@
  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black"/></a>
 </p>
 
-📫 : shindonghwi8940@gmail.com
+### :mailbox_with_mail: Contacts
+- 📮  **Fomagran's email ...**[![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:shindonghwi8940@gmail.com)](mailto:shindonghwi8940@gmail.com) 
