@@ -2,7 +2,9 @@
  - 
 
 ![shindonghwi GitHub stats](https://github-readme-stats.vercel.app/api?username=shindonghwi&show_icons=true&theme=radical)
- 
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shindonghwi)](https://github.com/anuraghazra/github-readme-stats)
+
  
 <h3 align="center"> My Favority ! 💪💪💪 </h2>
 <p align="center">
