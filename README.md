@@ -1,4 +1,4 @@
- - 🇰🇷  **I'm working in South Korea!!! **
+ - 🇰🇷  **I'm working in Brandx_KookminPT!!! **
  - 
 
 ![shindonghwi GitHub stats](https://github-readme-stats.vercel.app/api?username=shindonghwi&show_icons=true&theme=radical)
