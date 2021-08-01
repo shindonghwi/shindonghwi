@@ -6,7 +6,7 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shindonghwi)](https://github.com/anuraghazra/github-readme-stats)
 
 ## MY Library
-WolfImageUtilLib - 이미지 유틸 라이브러리 [![](https://jitpack.io/v/shindonghwi/WolfImageUtilLib.svg)](https://jitpack.io/#shindonghwi/WolfImageUtilLib)
+* [WolfImageUtilLib][WolfImageUtilLibLink](이미지 유틸 라이브러리) [![](https://jitpack.io/v/shindonghwi/WolfImageUtilLib.svg)](https://jitpack.io/#shindonghwi/WolfImageUtilLib)
 
 ------------------------------------------------------
 <h3 align="center"> My Favority ! 💪💪💪 </h2>
@@ -40,3 +40,6 @@ WolfImageUtilLib - 이미지 유틸 라이브러리 [![](https://jitpack.io/v/sh
 
 ### :mailbox_with_mail: Contacts
 - email 👉  [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:shindonghwi8940@gmail.com)](mailto:shindonghwi8940@gmail.com) or shindonghwi8940@gmail.com 
+
+
+[WolfImageUtilLibLink]: https://github.com/shindonghwi/WolfImageUtilLib
