@@ -1,4 +1,6 @@
- - 🇰🇷  **I'm working in Brandx_KookminPT!!! **
+ **🇰🇷**  
+ - I'm doing **"Jetpack Compose"** now !
+ - I'm working in **"Brandx_KookminPT"** !
 ------------------------------------------------------
 
 [![shindonghwi's GitHub stats](https://github-readme-stats.vercel.app/api?username=shindonghwi)](https://github.com/shindonghwi/github-readme-stats)
