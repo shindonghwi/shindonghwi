@@ -1,16 +1,15 @@
  - 🇰🇷  **I'm working in Brandx_KookminPT!!! **
 ------------------------------------------------------
 
-![shindonghwi GitHub stats](https://github-readme-stats.vercel.app/api?username=shindonghwi&show_icons=true&theme=radical)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shindonghwi)](https://github.com/anuraghazra/github-readme-stats)
+[![shindonghwi's GitHub stats](https://github-readme-stats.vercel.app/api?username=shindonghwi)](https://github.com/shindonghwi/github-readme-stats)
 
 ## MY Library
 * [WolfImageUtilLib][WolfImageUtilLibLink](이미지 유틸 라이브러리) [![](https://jitpack.io/v/shindonghwi/WolfImageUtilLib.svg)](https://jitpack.io/#shindonghwi/WolfImageUtilLib)
 
-------------------------------------------------------
+------------------------------------------------------FBAF00
 <h3 align="center"> My Favority ! 💪💪💪 </h2>
 <p align="center">
+ <img src="https://img.shields.io/badge/Compose-ffaa00?style=flat-square&logo=Android&logoColor=white"/></a> 
  <img src="https://img.shields.io/badge/Kotlin-0095D5?style=flat-square&logo=Kotlin&logoColor=white"/></a>
  <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=Android&logoColor=white"/></a> 
  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/></a> 
