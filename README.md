@@ -5,6 +5,9 @@
 
 [![shindonghwi's GitHub stats](https://github-readme-stats.vercel.app/api?username=shindonghwi)](https://github.com/shindonghwi/github-readme-stats)
 
+## Blog
+* https://medium.com/@wolf-android-developer
+
 ## MY Library
 * [WolfImageUtilLib][WolfImageUtilLibLink](이미지 유틸 라이브러리) [![](https://jitpack.io/v/shindonghwi/WolfImageUtilLib.svg)](https://jitpack.io/#shindonghwi/WolfImageUtilLib)
 
