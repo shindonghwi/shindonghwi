@@ -3,8 +3,6 @@
  - I'm working in **"Brandx_Fitness** !
 ------------------------------------------------------
 
-[![shindonghwi's GitHub stats](https://github-readme-stats.vercel.app/api?username=shindonghwi)](https://github.com/shindonghwi/github-readme-stats)
-
 ## Blog
 * https://medium.com/@wolf-android-developer
 
