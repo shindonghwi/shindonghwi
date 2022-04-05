@@ -3,7 +3,7 @@
 - Call Me:  **010-8940-6835**
 - Working:  **BrandXFitness**
 
-# 🤞 Blog ( Medium )
+# ⛹ Blog ( Medium )
 * https://medium.com/@wolf-android-developer
 
 # 🎖️ Profile
