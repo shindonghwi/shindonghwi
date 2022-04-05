@@ -1,4 +1,4 @@
- **🇰🇷**  
+# ~ing
  - I'm doing **"Jetpack Compose"** now !
  - I'm working in **"Brandx_Fitness** !
 
@@ -8,9 +8,13 @@
 # 🎖️ Profile
 [![github](https://github-readme-stats.vercel.app/api?username=shindonghwi&show_icons=true&count_private=true&include_all_commits=true)](https://github.com/shindonghwi) <br/>
 
-### :mailbox_with_mail: Contacts
-- email 👉  [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:shindonghwi8940@gmail.com)](mailto:shindonghwi8940@gmail.com) or shindonghwi8940@gmail.com 
+# 📞 Profile
+- Email&nbsp;&nbsp;&nbsp;:  **shindonghwi8940@gmail.com**
+- Call Me:  **01089406835**
+
+# 🏛 Library
+- [WolfImageUtilLibLink]: https://github.com/shindonghwi/WolfImageUtilLib
 
 
-[WolfImageUtilLibLink]: https://github.com/shindonghwi/WolfImageUtilLib
+
 
