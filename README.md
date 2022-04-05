@@ -10,7 +10,7 @@
 [![github](https://github-readme-stats.vercel.app/api?username=shindonghwi&show_icons=true&count_private=true&include_all_commits=true)](https://github.com/shindonghwi) <br/>
 
 # 🏛 Library
-- ### JetpackCompose
+- ### Jetpack Compose
     - [SkeletonView](https://github.com/shindonghwi/JetpackCompose_SkeletonView)
 
 ---------------------------------------
