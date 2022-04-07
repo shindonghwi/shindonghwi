@@ -10,8 +10,12 @@
 # 🚄 ~ing Project
 * [AndroidEarlyAdopter](https://github.com/shindonghwi/AndroidEarlyAdopter)  
   - ###### Description: Android 최신기술 & Trend 반영 프로젝트
-  - ###### Technology: Jetpack Compose, Clean Architecture, Multi Module ...
-
+  - ###### Technology
+    - ###### Jetpack Compose
+    - ###### Navigation Compose
+    - ###### Clean Architecture
+    - ###### Multi Module
+    - ###### Etc ...
 
 # 🎖️ Profile
 [![github](https://github-readme-stats.vercel.app/api?username=shindonghwi&show_icons=true&count_private=true&include_all_commits=true)](https://github.com/shindonghwi) <br/>
