@@ -7,7 +7,7 @@
 # ⛹ Blog ( Medium )
 * https://medium.com/@wolf-android-developer
 
-# ⛹ ~ing Project
+# 🚄 ~ing Project
 * [AndroidEarlyAdopter](https://github.com/shindonghwi/AndroidEarlyAdopter)  
   - ###### Description: Android 최신기술 & Trend 반영 프로젝트
   - ###### Technology: Jetpack Compose, Clean Architecture, Multi Module ...
