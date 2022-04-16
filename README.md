@@ -1,6 +1,6 @@
 # 📞 Profile
 - Email&nbsp;&nbsp;&nbsp;:  **shindonghwi8940@gmail.com**
-- Call Me:  **010-8940-6835**
+- Always Call Me:  **010-8940-6835**
 - Role:   **Android Leader**
 - Working:  **BrandXFitness 2021.04.05 ~ ing**
 
