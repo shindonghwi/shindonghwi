@@ -36,6 +36,7 @@
       - ##### NestedScrollHorizontalView 3 ~ 4 편 Medium 포스팅 예정... ( 할게 너무 많다.. )
       - ##### Navigation Compose Multi Back Stack 구현 방법 ( 역시 Medium에 포스팅 할 예정 )
 
-
+    - ##### Other
+      - ##### Android 12 Splash 화면 대응 ( 내 프로필 소개로 예쁘게 꾸밀 예정 )
 
 
