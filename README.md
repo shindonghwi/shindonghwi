@@ -28,6 +28,14 @@
 - ### Other
     -  [ImageUtil](https://github.com/shindonghwi/WolfImageUtilLib)
 
+---------------------------------------
+
+- ##### 작업 예정 TODO
+    - ##### Jetpack Compose
+      - ##### Tooltip Library 제작 ( 라이브러리 제작 및 Medium 에 포스팅 예정 )
+      - ##### NestedScrollHorizontalView 3 ~ 4 편 Medium 포스팅 예정... ( 할게 너무 많다.. )
+      - ##### Navigation Compose Multi Back Stack 구현 방법 ( 역시 Medium에 포스팅 할 예정 )
+
 
 
 
