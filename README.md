@@ -2,7 +2,7 @@
 - Email&nbsp;&nbsp;&nbsp;:  **shindonghwi8940@gmail.com**
 - Always Call Me:  **010-8940-6835**
 - Role:   **Android Leader**
-- Working:  **BrandXFitness 2021.04.05 ~ ing**
+- Working:  **BrandXFitness 2021.04.05 ~ 2022.05.31 The End **
 
 # ⛹ Blog ( Medium )
 * https://medium.com/@wolf-android-developer
