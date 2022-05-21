@@ -30,6 +30,7 @@
 
     - ##### Other
       - ##### 개발 속도 향상을 위한 Android Studio Plugin 제작
+      - ##### Android Plugins Template [ Navigation Fragment 추가 예정 )
       - ##### [AndroidEarlyAdopter](https://github.com/shindonghwi/AndroidEarlyAdopter) - ~~***Android 12 Splash 화면 대응***~~ 
       - ##### 소셜로그인은 개발은 이제 지겹다.. ( 카카오, 구글, 깃헙등 ) 라이브러리로 만들어서 배포하기 ( Medium 포스팅 예정 )
 
