@@ -4,7 +4,7 @@
 - Working:  **오롯코드 2022.06 ~ **
 
 # ⛹ Blog ( Medium )
-* https://medium.com/@wolf-android-developer
+* https://wolf-android-developer.medium.com
 
 # 🎖️ Profile
 [![github](https://github-readme-stats.vercel.app/api?username=shindonghwi&show_icons=true&count_private=true&include_all_commits=true)](https://github.com/shindonghwi) <br/>
