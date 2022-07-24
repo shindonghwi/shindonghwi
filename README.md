@@ -14,4 +14,5 @@
 - Android Custom UI ( Jetpack Compose )
 - React Native
 - GoLang
+- AWS
 
