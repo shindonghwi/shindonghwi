@@ -16,3 +16,5 @@
 - GoLang
 - AWS
 
+Repo rule
+[소문자 lang] - [ project name ]
