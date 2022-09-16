@@ -13,6 +13,7 @@
 
 - Android Custom UI ( Jetpack Compose )
 - React Native
+- Flutter
 - GoLang
 - AWS
 
