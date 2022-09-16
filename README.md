@@ -17,4 +17,4 @@
 - AWS
 
 Repo rule
-[소문자 lang] - [ project name ]
+[소문자 lang] _ [ project name ]
