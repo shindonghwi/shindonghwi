@@ -9,13 +9,8 @@
 # 🎖️ Profile
 [![github](https://github-readme-stats.vercel.app/api?username=shindonghwi&show_icons=true&count_private=true&include_all_commits=true)](https://github.com/shindonghwi) <br/>
 
-# 🏛 Study
+# 🏛 관심분야
 
-- Android Custom UI ( Jetpack Compose )
-- React Native
-- Flutter
-- GoLang
-- AWS
-
-Repo rule
-[소문자 lang] _ [ project name ]
+- 크롤링, 매크로, 백엔드 인프라 구축
+- AI 파이프라인 구축
+- Custom UI 제작 (Andorid, Flutter)
