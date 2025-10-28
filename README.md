@@ -20,10 +20,36 @@ Flutter/Android, TypeScript/Go 기반 풀스택 개발자입니다.
 
 ### 🏢 Industry Experience
 
-**Healthcare & Medical** - 의료/바이오 데이터 수집 및 분석
-**Fintech** - 전자문서, 결제 시스템
-**Digital Signage** - 디지털 사이니지 솔루션
-**SaaS** - 매칭 플랫폼, 팀 협업 도구
+<table>
+<tr>
+<td width="50%">
+
+**Healthcare & Medical**
+의료/바이오 데이터 수집 및 분석
+
+</td>
+<td width="50%">
+
+**Fintech**
+전자문서, 결제 시스템
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**Digital Signage**
+디지털 사이니지 솔루션
+
+</td>
+<td width="50%">
+
+**SaaS**
+매칭 플랫폼, 팀 협업 도구
+
+</td>
+</tr>
+</table>
 
 ---
 
