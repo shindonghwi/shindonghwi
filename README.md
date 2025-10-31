@@ -23,5 +23,8 @@ Flutter/Android, TypeScript/Go 기반 풀스택 개발자입니다.
 ---
 
 ### 📊 GitHub Stats
-
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=shindonghwi&show_icons=true&theme=dark&hide_border=true&count_private=true)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=shindonghwi&theme=dark)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=shindonghwi&layout=compact&theme=dark&hide_border=true)
