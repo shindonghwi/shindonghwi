@@ -1,5 +1,7 @@
 ## 👋 신동휘
 
+![Profile Summary Card](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shindonghwi&theme=dark)
+
 **Mobile & Backend Developer**
 
 Flutter/Android, TypeScript/Go 기반 풀스택 개발자입니다.
@@ -23,23 +25,5 @@ Flutter/Android, TypeScript/Go 기반 풀스택 개발자입니다.
 ---
 
 ### 📊 GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=shindonghwi&show_icons=true&theme=dark&hide_border=true&count_private=true)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=shindonghwi&theme=dark)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=shindonghwi&layout=compact&theme=dark&hide_border=true)
-
-### 📊 Coding Time
-![WakaTime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=shindonghwi&theme=dark)
-
 ![GitHub Trophy](https://github-profile-trophy.vercel.app/?username=shindonghwi&theme=dark_dimmed)
 
-![Profile Summary Card](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shindonghwi&theme=dark)
-
-![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=shindonghwi&theme=dark-dimmed)
-
-![](https://github-readme-stats.vercel.app/api/pin/?username=shindonghwi&repo=repository-name&theme=dark)
-
-![snake gif](https://github.com/username/username/blob/output/github-contribution-grid-snake.svg)
-
-![Visitors](https://visitor-badge.glitch.me/badge?page_id=shindonghwi)
