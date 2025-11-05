@@ -1,7 +1,4 @@
 ## 👋 신동휘
-
-![Profile Summary Card](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shindonghwi&theme=dark)
-
 **Mobile & Backend Developer**
 
 Flutter/Android, TypeScript/Go 기반 풀스택 개발자입니다.
