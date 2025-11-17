@@ -6,6 +6,9 @@ Flutter/Android, TypeScript/Go 기반 풀스택 개발자입니다.
 **📫 Email:** shindonghwi8940@gmail.com | **Phone:** 010-8940-6835
 
 ---
+<p align="center">
+  <img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" width="400">
+</p>
 
 ### 💻 Tech Stack
 
