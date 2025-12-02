@@ -1,7 +1,7 @@
 ## 👋 신동휘
 **Mobile & Backend Developer**
 
-Flutter/Android, TypeScript/Go 기반 풀스택 개발자입니다.
+Flutter/Android, TypeScript/Go 풀스택 개발자입니다.
 
 **📫 Email:** shindonghwi8940@gmail.com | **Phone:** 010-8940-6835
 
