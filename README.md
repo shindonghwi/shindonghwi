@@ -26,8 +26,9 @@ Flutter/Android, TypeScript/Go 풀스택 개발자입니다.
 ### ⚡ Recent Activity
 
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#179884](undefined) in [flutter/flutter](https://github.com/flutter/flutter)
-2. 💪 Opened PR [#179881](undefined) in [flutter/flutter](https://github.com/flutter/flutter)
-3. 💪 Opened PR [#2111](undefined) in [swaggo/swag](https://github.com/swaggo/swag)
-4. 💪 Opened PR [#2110](undefined) in [swaggo/swag](https://github.com/swaggo/swag)
+1. 👀 Reviewed PR [#179884](https://github.com/flutter/flutter/pull/179884) in [flutter/flutter](https://github.com/flutter/flutter)
+2. 💪 Opened PR [#179884](https://github.com/flutter/flutter/pull/179884) in [flutter/flutter](https://github.com/flutter/flutter)
+3. ⭐ Starred [flutter/flutter](https://github.com/flutter/flutter)
+4. 💪 Opened PR [#179881](https://github.com/flutter/flutter/pull/179881) in [flutter/flutter](https://github.com/flutter/flutter)
+5. ⭐ Starred [shindonghwi/flutter](https://github.com/shindonghwi/flutter)
 <!--END_SECTION:activity-->

@@ -4,7 +4,7 @@ import re
 USERNAME = "shindonghwi"
 
 def get_recent_events():
-    url = f"https://api.github.com/users/{USERNAME}/events/public?per_page=10"
+    url = f"https://api.github.com/users/{USERNAME}/events/public?per_page=30"
     response = requests.get(url)
     if response.status_code != 200:
         return []
@@ -16,11 +16,15 @@ def format_event(event):
     repo_url = f"https://github.com/{repo}"
     payload = event.get("payload", {})
 
+    # 본인 프로필 레포는 스킵
+    if repo == f"{USERNAME}/{USERNAME}":
+        return None
+
     if event_type == "PullRequestEvent":
         action = payload.get("action", "")
         pr = payload.get("pull_request", {})
         pr_num = pr.get("number", "")
-        pr_url = pr.get("html_url", "")
+        pr_url = f"https://github.com/{repo}/pull/{pr_num}"
         if action == "opened":
             return f"💪 Opened PR [#{pr_num}]({pr_url}) in [{repo}]({repo_url})"
         elif action == "closed" and pr.get("merged"):
@@ -28,7 +32,7 @@ def format_event(event):
     elif event_type == "PushEvent":
         commits = payload.get("commits", [])
         if commits:
-            return f"⬆️ Pushed {len(commits)} commit(s) to [{repo}]({repo_url})"
+            return f"⬆️ Pushed to [{repo}]({repo_url})"
     elif event_type == "IssuesEvent":
         action = payload.get("action", "")
         issue = payload.get("issue", {})
@@ -41,6 +45,15 @@ def format_event(event):
         issue_num = issue.get("number", "")
         comment_url = payload.get("comment", {}).get("html_url", "")
         return f"💬 Commented on [#{issue_num}]({comment_url}) in [{repo}]({repo_url})"
+    elif event_type == "PullRequestReviewEvent":
+        pr = payload.get("pull_request", {})
+        pr_num = pr.get("number", "")
+        pr_url = f"https://github.com/{repo}/pull/{pr_num}"
+        return f"👀 Reviewed PR [#{pr_num}]({pr_url}) in [{repo}]({repo_url})"
+    elif event_type == "ForkEvent":
+        return f"🍴 Forked [{repo}]({repo_url})"
+    elif event_type == "WatchEvent":
+        return f"⭐ Starred [{repo}]({repo_url})"
 
     return None
 
@@ -65,9 +78,12 @@ def update_readme():
 
     activities = generate_activity()
     if not activities:
+        print("No activities found")
         return
 
     activity_text = "\n".join([f"{i+1}. {line}" for i, line in enumerate(activities)])
+    print("Generated activity:")
+    print(activity_text)
 
     new_section = f"<!--START_SECTION:activity-->\n{activity_text}\n<!--END_SECTION:activity-->"
 
