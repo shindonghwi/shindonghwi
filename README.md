@@ -1,10 +1,8 @@
 # Shin Dong Hwi
 
-| | |
-|---|---|
-| **Role** | Mobile & Backend Developer |
-| **Email** | shindonghwi8940@gmail.com |
-| **Phone** | +82 10-8940-6835 |
+**Role** · Mobile & Backend Developer
+**Email** · shindonghwi8940@gmail.com
+**Phone** · +82 10-8940-6835
 
 ---
 
