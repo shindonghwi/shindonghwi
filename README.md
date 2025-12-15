@@ -4,7 +4,6 @@
 **Email** · shindonghwi8940@gmail.com<br>
 **Phone** · +82 10-8940-6835
 
-<br>
 
 ### Open Source Contributions
 
@@ -15,7 +14,6 @@
 - `Open` [swaggo/swag#2111](https://github.com/swaggo/swag/pull/2111) — fix: support empty object example value for map[string]struct{}
 <!--END_SECTION:contributions-->
 
-<br>
 
 ### Recent Activity
 
