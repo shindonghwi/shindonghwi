@@ -52,8 +52,6 @@ def format_event(event):
         return f"👀 Reviewed PR [#{pr_num}]({pr_url}) in [{repo}]({repo_url})"
     elif event_type == "ForkEvent":
         return f"🍴 Forked [{repo}]({repo_url})"
-    elif event_type == "WatchEvent":
-        return f"⭐ Starred [{repo}]({repo_url})"
 
     return None
 
