@@ -8,7 +8,7 @@
 ### Libraries
 
 <!--START_SECTION:libraries-->
-- [@sognora/ui](https://www.npmjs.com/package/@sognora/ui) — Shared UI components for Sognora projects
+- [@sognora/ui](https://www.npmjs.com/package/@sognora/ui) `0.2.39` (2025-12-15) — Shared UI components for Sognora projects
 <!--END_SECTION:libraries-->
 
 
