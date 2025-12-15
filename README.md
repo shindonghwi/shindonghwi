@@ -20,9 +20,9 @@ Flutter/Android, TypeScript/Go 풀스택 개발자입니다.
 ### ⚡ Recent Activity
 
 <!--START_SECTION:activity-->
-1. 👀 Reviewed PR [#179884](https://github.com/flutter/flutter/pull/179884) in [flutter/flutter](https://github.com/flutter/flutter)
-2. 💪 Opened PR [#179884](https://github.com/flutter/flutter/pull/179884) in [flutter/flutter](https://github.com/flutter/flutter)
-3. 💪 Opened PR [#179881](https://github.com/flutter/flutter/pull/179881) in [flutter/flutter](https://github.com/flutter/flutter)
-4. 💪 Opened PR [#2111](https://github.com/swaggo/swag/pull/2111) in [swaggo/swag](https://github.com/swaggo/swag)
-5. 💪 Opened PR [#2110](https://github.com/swaggo/swag/pull/2110) in [swaggo/swag](https://github.com/swaggo/swag)
+- Reviewed PR [#179884](https://github.com/flutter/flutter/pull/179884) in [flutter/flutter](https://github.com/flutter/flutter)
+- Opened PR [#179884](https://github.com/flutter/flutter/pull/179884) in [flutter/flutter](https://github.com/flutter/flutter)
+- Opened PR [#179881](https://github.com/flutter/flutter/pull/179881) in [flutter/flutter](https://github.com/flutter/flutter)
+- Opened PR [#2111](https://github.com/swaggo/swag/pull/2111) in [swaggo/swag](https://github.com/swaggo/swag)
+- Opened PR [#2110](https://github.com/swaggo/swag/pull/2110) in [swaggo/swag](https://github.com/swaggo/swag)
 <!--END_SECTION:activity-->
