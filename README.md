@@ -1,6 +1,8 @@
-## 신동휘
+# Shin Dong Hwi
 
 **Mobile & Backend Developer** building with Flutter, Kotlin, TypeScript, and Go.
+
+shindonghwi8940@gmail.com · +82 10-8940-6835
 
 ---
 
