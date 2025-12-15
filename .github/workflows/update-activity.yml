@@ -1,4 +1,4 @@
-name: Update Recent Activity
+name: Update Activity
 
 on:
   schedule:
@@ -6,13 +6,13 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: Readme-Workflows/recent-activity@v2
+      - uses: jamesgeorge007/github-activity-readme@v1.5.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          COMMIT_MSG: '🔄 Update recent activity'
+          COMMIT_MSG: '🔄 Update activity'
           MAX_LINES: 5

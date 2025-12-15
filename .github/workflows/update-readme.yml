@@ -1,30 +1,25 @@
-name: Update README with Contributions
+name: Update Contributions
 
 on:
   schedule:
-    # 매일 오전 9시 (KST) 실행
     - cron: '0 0 * * *'
-  workflow_dispatch: # 수동 실행 가능
+  workflow_dispatch:
 
 jobs:
-  update-readme:
+  update:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
-        run: pip install requests
+      - run: pip install requests
 
-      - name: Update README
-        run: python .github/scripts/update_contributions.py
+      - run: python .github/scripts/update_contributions.py
 
-      - name: Commit and push if changed
+      - name: Push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
