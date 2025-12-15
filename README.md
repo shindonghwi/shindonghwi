@@ -1,8 +1,11 @@
 # Shin Dong Hwi
 
-**Mobile & Backend Developer** building with Flutter, Kotlin, TypeScript, and Go.
+Mobile & Backend Developer
 
-shindonghwi8940@gmail.com · +82 10-8940-6835
+`Flutter` `Kotlin` `TypeScript` `Go`
+
+📧 shindonghwi8940@gmail.com
+📱 +82 10-8940-6835
 
 ---
 
