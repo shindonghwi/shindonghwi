@@ -1,5 +1,6 @@
 import requests
 import re
+from datetime import datetime
 
 USERNAME = "shindonghwi"
 NPM_SCOPE = "sognora"
@@ -20,10 +21,22 @@ def get_npm_packages():
 
     for obj in data.get("objects", []):
         pkg = obj.get("package", {})
+        name = pkg.get("name", "")
+        version = pkg.get("version", "")
+        date_str = pkg.get("date", "")
+
+        if date_str:
+            dt = datetime.fromisoformat(date_str.replace("Z", "+00:00"))
+            date = dt.strftime("%Y-%m-%d")
+        else:
+            date = ""
+
         packages.append({
-            "name": pkg.get("name", ""),
+            "name": name,
             "description": pkg.get("description", ""),
-            "url": f"https://www.npmjs.com/package/{pkg.get('name', '')}",
+            "url": f"https://www.npmjs.com/package/{name}",
+            "version": version,
+            "date": date,
         })
 
     return packages
@@ -73,7 +86,7 @@ def update_readme():
     if packages:
         lines = []
         for pkg in packages:
-            lines.append(f"- [{pkg['name']}]({pkg['url']}) — {pkg['description']}")
+            lines.append(f"- [{pkg['name']}]({pkg['url']}) `{pkg['version']}` ({pkg['date']}) — {pkg['description']}")
         libs_section = "<!--START_SECTION:libraries-->\n" + "\n".join(lines) + "\n<!--END_SECTION:libraries-->"
     else:
         libs_section = "<!--START_SECTION:libraries-->\n<!--END_SECTION:libraries-->"
