@@ -15,8 +15,8 @@
 ### Open Source Contributions
 
 <!--START_SECTION:contributions-->
-- `Open` [flutter/flutter#179884](https://github.com/flutter/flutter/pull/179884) — Filter out FrameEvents/updateAcquireFence log spam from adb logcat
 - `Open` [flutter/flutter#179891](https://github.com/flutter/flutter/pull/179891) — Suppress deprecated AChoreographer_postFrameCallback warning
+- `Open` [flutter/flutter#179884](https://github.com/flutter/flutter/pull/179884) — Filter out FrameEvents/updateAcquireFence log spam from adb logcat
 - `Open` [flutter/flutter#179881](https://github.com/flutter/flutter/pull/179881) — Fix RenderParagraph.textAlign setter to call markNeedsLayout
 - `Open` [swaggo/swag#2110](https://github.com/swaggo/swag/pull/2110) — refactor: replace interface{} with any
 - `Open` [swaggo/swag#2111](https://github.com/swaggo/swag/pull/2111) — fix: support empty object example value for map[string]struct{}
