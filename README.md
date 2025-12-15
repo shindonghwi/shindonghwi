@@ -3,7 +3,6 @@
 | | |
 |---|---|
 | **Role** | Mobile & Backend Developer |
-| **Stack** | Flutter, Kotlin, TypeScript, Go |
 | **Email** | shindonghwi8940@gmail.com |
 | **Phone** | +82 10-8940-6835 |
 
