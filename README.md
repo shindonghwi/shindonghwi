@@ -14,3 +14,16 @@ Flutter/Android, TypeScript/Go 풀스택 개발자입니다.
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+---
+
+### 📊 GitHub Stats
+
+<img src="https://github-readme-stats.vercel.app/api?username=shindonghwi&show_icons=true&theme=default&hide_border=true&hide_title=true" height="150"/>
+
+---
+
+### ⚡ Recent Activity
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
