@@ -23,4 +23,5 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git pull --rebase || true
           git diff --quiet || (git add README.md && git commit -m "🔄 Update contributions" && git push)
