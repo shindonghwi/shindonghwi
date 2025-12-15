@@ -10,9 +10,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: jamesgeorge007/github-activity-readme@v0.4.5
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
         with:
-          COMMIT_MSG: '🔄 Update activity'
-          MAX_LINES: 5
+          python-version: '3.11'
+
+      - run: pip install requests
+
+      - run: python .github/scripts/update_activity.py
+
+      - name: Push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git diff --quiet || (git add README.md && git commit -m "🔄 Update activity" && git push)
