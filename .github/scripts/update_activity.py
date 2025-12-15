@@ -50,8 +50,6 @@ def format_event(event):
         pr_num = pr.get("number", "")
         pr_url = f"https://github.com/{repo}/pull/{pr_num}"
         return f"👀 Reviewed PR [#{pr_num}]({pr_url}) in [{repo}]({repo_url})"
-    elif event_type == "ForkEvent":
-        return f"🍴 Forked [{repo}]({repo_url})"
 
     return None
 
