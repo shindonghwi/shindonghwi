@@ -3,8 +3,13 @@ import re
 
 USERNAME = "shindonghwi"
 
+# 제외할 organization/owner 목록
+EXCLUDED_OWNERS = [
+    USERNAME,
+    "teampmm",
+]
+
 def get_all_prs():
-    """모든 머지된 PR 가져오기"""
     url = f"https://api.github.com/search/issues?q=author:{USERNAME}+is:pr+is:merged&sort=updated&order=desc&per_page=100"
     response = requests.get(url)
     if response.status_code != 200:
@@ -16,9 +21,10 @@ def get_all_prs():
     for item in data.get("items", []):
         repo_url = item["repository_url"]
         repo = repo_url.replace("https://api.github.com/repos/", "")
+        owner = repo.split("/")[0]
 
-        # 본인 레포 제외
-        if repo.startswith(f"{USERNAME}/"):
+        # 제외 목록에 있으면 스킵
+        if owner in EXCLUDED_OWNERS:
             continue
 
         prs.append({
