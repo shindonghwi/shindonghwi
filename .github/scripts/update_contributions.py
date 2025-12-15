@@ -2,11 +2,31 @@ import requests
 import re
 
 USERNAME = "shindonghwi"
+NPM_SCOPE = "sognora"
 
 EXCLUDED_OWNERS = [
     USERNAME,
     "teampmm",
 ]
+
+def get_npm_packages():
+    url = f"https://registry.npmjs.org/-/v1/search?text=@{NPM_SCOPE}&size=100"
+    response = requests.get(url)
+    if response.status_code != 200:
+        return []
+
+    data = response.json()
+    packages = []
+
+    for obj in data.get("objects", []):
+        pkg = obj.get("package", {})
+        packages.append({
+            "name": pkg.get("name", ""),
+            "description": pkg.get("description", ""),
+            "url": f"https://www.npmjs.com/package/{pkg.get('name', '')}",
+        })
+
+    return packages
 
 def get_all_prs():
     url = f"https://api.github.com/search/issues?q=author:{USERNAME}+is:pr&sort=updated&order=desc&per_page=100"
@@ -25,7 +45,6 @@ def get_all_prs():
         if owner in EXCLUDED_OWNERS:
             continue
 
-        # 상태 확인
         if item.get("pull_request", {}).get("merged_at"):
             status = "Merged"
         elif item.get("state") == "closed":
@@ -49,20 +68,36 @@ def update_readme():
     with open("README.md", "r", encoding="utf-8") as f:
         content = f.read()
 
-    prs = get_all_prs()
-
-    if not prs:
-        section = "<!--START_SECTION:contributions-->\n<!--END_SECTION:contributions-->"
+    # Libraries
+    packages = get_npm_packages()
+    if packages:
+        lines = []
+        for pkg in packages:
+            lines.append(f"- [{pkg['name']}]({pkg['url']}) — {pkg['description']}")
+        libs_section = "<!--START_SECTION:libraries-->\n" + "\n".join(lines) + "\n<!--END_SECTION:libraries-->"
     else:
+        libs_section = "<!--START_SECTION:libraries-->\n<!--END_SECTION:libraries-->"
+
+    content = re.sub(
+        r"<!--START_SECTION:libraries-->.*<!--END_SECTION:libraries-->",
+        libs_section,
+        content,
+        flags=re.DOTALL
+    )
+
+    # Contributions
+    prs = get_all_prs()
+    if prs:
         lines = []
         for pr in prs:
             lines.append(f"- `{pr['status']}` [{pr['repo']}#{pr['number']}]({pr['url']}) — {pr['title']}")
-
-        section = "<!--START_SECTION:contributions-->\n" + "\n".join(lines) + "\n<!--END_SECTION:contributions-->"
+        contrib_section = "<!--START_SECTION:contributions-->\n" + "\n".join(lines) + "\n<!--END_SECTION:contributions-->"
+    else:
+        contrib_section = "<!--START_SECTION:contributions-->\n<!--END_SECTION:contributions-->"
 
     content = re.sub(
         r"<!--START_SECTION:contributions-->.*<!--END_SECTION:contributions-->",
-        section,
+        contrib_section,
         content,
         flags=re.DOTALL
     )

@@ -7,7 +7,9 @@
 
 ### Libraries
 
+<!--START_SECTION:libraries-->
 - [@sognora/ui](https://www.npmjs.com/package/@sognora/ui) — Shared UI components for Sognora projects
+<!--END_SECTION:libraries-->
 
 
 ### Open Source Contributions
