@@ -4,9 +4,9 @@
 **Email** · shindonghwi8940@gmail.com
 **Phone** · +82 10-8940-6835
 
----
+<br>
 
-**Open Source Contributions**
+### Open Source Contributions
 
 <!--START_SECTION:contributions-->
 - `Open` [flutter/flutter#179884](https://github.com/flutter/flutter/pull/179884) — Filter out FrameEvents/updateAcquireFence log spam from adb logcat
@@ -15,9 +15,9 @@
 - `Open` [swaggo/swag#2111](https://github.com/swaggo/swag/pull/2111) — fix: support empty object example value for map[string]struct{}
 <!--END_SECTION:contributions-->
 
----
+<br>
 
-**Recent Activity**
+### Recent Activity
 
 <!--START_SECTION:activity-->
 | Date | Action | Link | Project |
