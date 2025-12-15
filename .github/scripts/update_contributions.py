@@ -1,67 +1,59 @@
 import requests
 import re
 
-GITHUB_USERNAME = "shindonghwi"
+USERNAME = "shindonghwi"
 
-# 기여하고 싶은 레포지토리 목록 (owner/repo 형식)
-TARGET_REPOS = [
-    "flutter/flutter",
-    "flutter/engine",
-    "riverpod/riverpod",
-]
-
-def get_merged_prs(repo):
-    """특정 레포지토리에서 머지된 PR 목록 가져오기"""
-    url = f"https://api.github.com/search/issues?q=author:{GITHUB_USERNAME}+repo:{repo}+is:pr+is:merged&sort=updated&order=desc"
+def get_all_prs():
+    """모든 머지된 PR 가져오기"""
+    url = f"https://api.github.com/search/issues?q=author:{USERNAME}+is:pr+is:merged&sort=updated&order=desc&per_page=100"
     response = requests.get(url)
     if response.status_code != 200:
         return []
 
     data = response.json()
     prs = []
+
     for item in data.get("items", []):
+        repo_url = item["repository_url"]
+        repo = repo_url.replace("https://api.github.com/repos/", "")
+
+        # 본인 레포 제외
+        if repo.startswith(f"{USERNAME}/"):
+            continue
+
         prs.append({
+            "repo": repo,
             "number": item["number"],
             "title": item["title"],
             "url": item["html_url"],
         })
+
     return prs
 
-def generate_contributions_section():
-    """기여 섹션 마크다운 생성"""
-    all_contributions = {}
-
-    for repo in TARGET_REPOS:
-        prs = get_merged_prs(repo)
-        if prs:
-            all_contributions[repo] = prs
-
-    if not all_contributions:
-        return ""
-
-    lines = ["", "---", "", "### 🔧 Open Source", ""]
-
-    for repo, prs in all_contributions.items():
-        pr_links = ", ".join([f"[#{pr['number']}]({pr['url']})" for pr in prs])
-        lines.append(f"- [{repo}](https://github.com/{repo}) - {pr_links}")
-
-    return "\n".join(lines)
-
 def update_readme():
-    """README.md 업데이트"""
     with open("README.md", "r", encoding="utf-8") as f:
         content = f.read()
 
-    # 기존 Open Source 섹션 제거
-    content = re.sub(r'\n---\n+### 🔧 Open Source\n.*', '', content, flags=re.DOTALL)
-    content = content.rstrip()
+    prs = get_all_prs()
 
-    # 새 기여 섹션 추가
-    contributions = generate_contributions_section()
-    new_content = content + contributions + "\n"
+    if not prs:
+        section = "<!--START_SECTION:contributions-->\n<!--END_SECTION:contributions-->"
+    else:
+        lines = []
+        for pr in prs:
+            lines.append(f"- [{pr['repo']}#{pr['number']}]({pr['url']}) — {pr['title']}")
+
+        section = "<!--START_SECTION:contributions-->\n" + "\n".join(lines) + "\n<!--END_SECTION:contributions-->"
+
+    content = re.sub(
+        r"<!--START_SECTION:contributions-->.*<!--END_SECTION:contributions-->",
+        section,
+        content,
+        flags=re.DOTALL
+    )
 
     with open("README.md", "w", encoding="utf-8") as f:
-        f.write(new_content)
+        f.write(content)
 
     print("README.md updated!")
 
