@@ -3,14 +3,13 @@ import re
 
 USERNAME = "shindonghwi"
 
-# 제외할 organization/owner 목록
 EXCLUDED_OWNERS = [
     USERNAME,
     "teampmm",
 ]
 
 def get_all_prs():
-    url = f"https://api.github.com/search/issues?q=author:{USERNAME}+is:pr+is:merged&sort=updated&order=desc&per_page=100"
+    url = f"https://api.github.com/search/issues?q=author:{USERNAME}+is:pr&sort=updated&order=desc&per_page=100"
     response = requests.get(url)
     if response.status_code != 200:
         return []
@@ -23,15 +22,25 @@ def get_all_prs():
         repo = repo_url.replace("https://api.github.com/repos/", "")
         owner = repo.split("/")[0]
 
-        # 제외 목록에 있으면 스킵
         if owner in EXCLUDED_OWNERS:
             continue
+
+        # 상태 확인
+        if item.get("pull_request", {}).get("merged_at"):
+            status = "Merged"
+        elif item.get("state") == "closed":
+            status = "Closed"
+        elif item.get("draft"):
+            status = "Draft"
+        else:
+            status = "Open"
 
         prs.append({
             "repo": repo,
             "number": item["number"],
             "title": item["title"],
             "url": item["html_url"],
+            "status": status,
         })
 
     return prs
@@ -47,7 +56,7 @@ def update_readme():
     else:
         lines = []
         for pr in prs:
-            lines.append(f"- [{pr['repo']}#{pr['number']}]({pr['url']}) — {pr['title']}")
+            lines.append(f"- `{pr['status']}` [{pr['repo']}#{pr['number']}]({pr['url']}) — {pr['title']}")
 
         section = "<!--START_SECTION:contributions-->\n" + "\n".join(lines) + "\n<!--END_SECTION:contributions-->"
 
