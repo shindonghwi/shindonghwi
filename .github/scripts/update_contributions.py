@@ -24,6 +24,7 @@ def get_npm_packages():
         name = pkg.get("name", "")
         version = pkg.get("version", "")
         date_str = pkg.get("date", "")
+        keywords = pkg.get("keywords", [])
 
         if date_str:
             dt = datetime.fromisoformat(date_str.replace("Z", "+00:00"))
@@ -37,6 +38,7 @@ def get_npm_packages():
             "url": f"https://www.npmjs.com/package/{name}",
             "version": version,
             "date": date,
+            "keywords": keywords,
         })
 
     return packages
@@ -86,7 +88,11 @@ def update_readme():
     if packages:
         lines = []
         for pkg in packages:
-            lines.append(f"- [{pkg['name']}]({pkg['url']}) `{pkg['version']}` ({pkg['date']}) — {pkg['description']}")
+            keywords_str = " ".join([f"`{k}`" for k in pkg['keywords'][:5]]) if pkg['keywords'] else ""
+            line = f"- [{pkg['name']}]({pkg['url']}) · `v{pkg['version']}` · {pkg['date']}"
+            if keywords_str:
+                line += f"<br>{keywords_str}"
+            lines.append(line)
         libs_section = "<!--START_SECTION:libraries-->\n" + "\n".join(lines) + "\n<!--END_SECTION:libraries-->"
     else:
         libs_section = "<!--START_SECTION:libraries-->\n<!--END_SECTION:libraries-->"
