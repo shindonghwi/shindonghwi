@@ -2,7 +2,7 @@ name: Readme Update Libraries
 
 on:
   schedule:
-    - cron: '0 */1 * * *'
+    - cron: '0 16 * * *'  # 오전 1시 KST (UTC+9)
   workflow_dispatch:
 
 jobs:
