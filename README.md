@@ -29,10 +29,14 @@
 <!--START_SECTION:activity-->
 | Date | Action | Link | Project |
 |------|--------|------|---------|
+| 2025-12-16 | Opened PR | [#4704](https://github.com/felangel/bloc/pull/4704) | [felangel/bloc](https://github.com/felangel/bloc) |
+| 2025-12-16 | Opened PR | [#4703](https://github.com/felangel/bloc/pull/4703) | [felangel/bloc](https://github.com/felangel/bloc) |
+| 2025-12-16 | Opened PR | [#4702](https://github.com/felangel/bloc/pull/4702) | [felangel/bloc](https://github.com/felangel/bloc) |
+| 2025-12-16 | Opened PR | [#4701](https://github.com/felangel/bloc/pull/4701) | [felangel/bloc](https://github.com/felangel/bloc) |
+| 2025-12-16 | Opened PR | [#4700](https://github.com/felangel/bloc/pull/4700) | [felangel/bloc](https://github.com/felangel/bloc) |
 | 2025-12-16 | Opened PR | [#2117](https://github.com/swaggo/swag/pull/2117) | [swaggo/swag](https://github.com/swaggo/swag) |
 | 2025-12-16 | Reviewed PR | [#179868](https://github.com/flutter/flutter/pull/179868) | [flutter/flutter](https://github.com/flutter/flutter) |
 | 2025-12-16 | Reviewed PR | [#2115](https://github.com/swaggo/swag/pull/2115) | [swaggo/swag](https://github.com/swaggo/swag) |
 | 2025-12-16 | Reviewed PR | [#2032](https://github.com/swaggo/swag/pull/2032) | [swaggo/swag](https://github.com/swaggo/swag) |
 | 2025-12-15 | Opened PR | [#179891](https://github.com/flutter/flutter/pull/179891) | [flutter/flutter](https://github.com/flutter/flutter) |
-| 2025-12-15 | Reviewed PR | [#179884](https://github.com/flutter/flutter/pull/179884) | [flutter/flutter](https://github.com/flutter/flutter) |
 <!--END_SECTION:activity-->
