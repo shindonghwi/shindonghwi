@@ -21,7 +21,7 @@ jobs:
 
       - name: Push
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "ehdgnl8940@naver.com"
+          git config --local user.name "shindonghwi"
           git pull --rebase || true
           git diff --quiet || (git add README.md && git commit -m "🔄 Update libraries" && git push)
