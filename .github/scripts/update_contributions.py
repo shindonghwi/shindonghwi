@@ -8,6 +8,22 @@ EXCLUDED_OWNERS = [
     "teampmm",
 ]
 
+def get_pr_status(repo, number):
+    """Get actual PR status by fetching PR details"""
+    url = f"https://api.github.com/repos/{repo}/pulls/{number}"
+    response = requests.get(url)
+    if response.status_code != 200:
+        return "Open"
+
+    pr = response.json()
+    if pr.get("merged"):
+        return "Merged"
+    elif pr.get("state") == "closed":
+        return "Closed"
+    elif pr.get("draft"):
+        return "Draft"
+    return "Open"
+
 def get_all_prs():
     url = f"https://api.github.com/search/issues?q=author:{USERNAME}+is:pr&sort=updated&order=desc&per_page=100"
     response = requests.get(url)
@@ -25,14 +41,7 @@ def get_all_prs():
         if owner in EXCLUDED_OWNERS:
             continue
 
-        if item.get("pull_request", {}).get("merged_at"):
-            status = "Merged"
-        elif item.get("state") == "closed":
-            status = "Closed"
-        elif item.get("draft"):
-            status = "Draft"
-        else:
-            status = "Open"
+        status = get_pr_status(repo, item["number"])
 
         prs.append({
             "repo": repo,
