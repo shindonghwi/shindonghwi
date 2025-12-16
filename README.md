@@ -15,6 +15,8 @@
 ### Open Source Contributions
 
 <!--START_SECTION:contributions-->
+- `Open` [felangel/bloc#4706](https://github.com/felangel/bloc/pull/4706) — docs: add ko flutter-todos tutorial translation
+- `Open` [felangel/bloc#4705](https://github.com/felangel/bloc/pull/4705) — docs: add ko github-search tutorial translation
 - `Open` [felangel/bloc#4704](https://github.com/felangel/bloc/pull/4704) — docs: add ko flutter-login tutorial translation
 - `Open` [felangel/bloc#4703](https://github.com/felangel/bloc/pull/4703) — docs: add ko `flutter-firebase-login` tutorial translation
 - `Open` [felangel/bloc#4702](https://github.com/felangel/bloc/pull/4702) — docs: add ko `flutter-infinite-list` tutorial translation
