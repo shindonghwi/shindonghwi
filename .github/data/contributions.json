@@ -164,13 +164,24 @@
       "created_at": "2025-12-04T05:49:58Z",
       "merged_at": null,
       "closed_at": null
+    },
+    {
+      "repo": "rrousselGit/riverpod",
+      "number": 4631,
+      "title": "fix: reset _didChangeDependency flag properly in invalidateSelf",
+      "url": "https://github.com/rrousselGit/riverpod/pull/4631",
+      "status": "Closed",
+      "month": "2025-12",
+      "created_at": "2025-12-17T14:07:52Z",
+      "merged_at": null,
+      "closed_at": "2025-12-17T14:24:02Z"
     }
   ],
   "monthly_stats": {
     "2025-12": {
       "merged": 9,
       "open": 5,
-      "closed": 1,
+      "closed": 2,
       "draft": 0
     }
   }

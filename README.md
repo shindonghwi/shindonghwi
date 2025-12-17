@@ -17,6 +17,7 @@
 <!--START_SECTION:contributions-->
 #### December 2025
 
+- `Closed` `12-17` [rrousselGit/riverpod#4631](https://github.com/rrousselGit/riverpod/pull/4631) — fix: reset _didChangeDependency flag properly in invalidateSelf
 - `Merged` `12-17` [felangel/bloc#4707](https://github.com/felangel/bloc/pull/4707) — docs: add ko `flutter-weather.mdx` translations
 - `Merged` `12-17` [felangel/bloc#4706](https://github.com/felangel/bloc/pull/4706) — docs: add ko `flutter-todos.mdx` translations
 - `Merged` `12-17` [felangel/bloc#4705](https://github.com/felangel/bloc/pull/4705) — docs: add ko `github-search.mdx` translations
@@ -37,6 +38,6 @@
 
 | Month | Merged | Open | Closed | Total |
 |:---:|:---:|:---:|:---:|:---:|
-| **2025-12** | 9 | 5 | 1 | 15 |
+| **2025-12** | 9 | 5 | 2 | 16 |
 
 <!--END_SECTION:contributions-->
