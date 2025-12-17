@@ -35,12 +35,8 @@
 
 #### Monthly Stats
 
-```mermaid
-xychart-beta
-    title "Monthly Merged PRs"
-    x-axis ["12"]
-    y-axis "PRs" 0 --> 11
-    bar [9]
-```
+| Month | Merged | Open | Closed |
+|:---:|:---:|:---:|:---:|
+| **2025-12** | 9 | 5 | 1 |
 
 <!--END_SECTION:contributions-->

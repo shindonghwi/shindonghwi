@@ -141,21 +141,25 @@ def generate_readme(data):
             lines.append(f"- `{pr['status']}` [{pr['repo']}#{pr['number']}]({pr['url']}) — {pr['title']}")
         lines.append("")
 
-    # Monthly stats chart (mermaid)
+    # Monthly stats table
     sorted_months = sorted(data["monthly_stats"].keys(), reverse=True)
     recent_months = sorted_months[:6]  # Last 6 months
 
-    if recent_months and len([m for m in recent_months if data["monthly_stats"][m].get("merged", 0) > 0]) > 0:
+    if recent_months:
         lines.append("#### Monthly Stats")
         lines.append("")
-        lines.append("```mermaid")
-        lines.append("xychart-beta")
-        lines.append('    title "Monthly Merged PRs"')
-        lines.append("    x-axis [" + ", ".join([f'"{m[5:]}"' for m in reversed(recent_months)]) + "]")
-        merged_counts = [str(data["monthly_stats"][m].get("merged", 0)) for m in reversed(recent_months)]
-        lines.append("    y-axis \"PRs\" 0 --> " + str(max(int(c) for c in merged_counts) + 2))
-        lines.append("    bar [" + ", ".join(merged_counts) + "]")
-        lines.append("```")
+        lines.append("| Month | Merged | Open | Closed |")
+        lines.append("|:---:|:---:|:---:|:---:|")
+        for month in recent_months:
+            stats = data["monthly_stats"][month]
+            m = stats.get("merged", 0)
+            o = stats.get("open", 0)
+            c = stats.get("closed", 0)
+            # Bold current month
+            if month == current_month:
+                lines.append(f"| **{month}** | {m} | {o} | {c} |")
+            else:
+                lines.append(f"| {month} | {m} | {o} | {c} |")
         lines.append("")
 
     # Past merged highlights
