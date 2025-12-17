@@ -132,8 +132,18 @@ def generate_readme(data):
         lines.append(f"#### {now.strftime('%B %Y')}")
         lines.append("")
 
+        # Sort by date (most recent first)
+        def get_sort_date(pr):
+            if pr["status"] == "Merged" and pr.get("merged_at"):
+                return pr["merged_at"]
+            elif pr["status"] == "Closed" and pr.get("closed_at"):
+                return pr["closed_at"]
+            return pr.get("created_at", "")
+
+        all_prs = sorted(current_prs + open_prs, key=get_sort_date, reverse=True)
+
         seen = set()
-        for pr in current_prs + open_prs:
+        for pr in all_prs:
             key = f"{pr['repo']}#{pr['number']}"
             if key in seen:
                 continue
