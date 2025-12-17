@@ -24,4 +24,4 @@ jobs:
           git config --local user.email "ehdgnl8940@naver.com"
           git config --local user.name "shindonghwi"
           git pull --rebase || true
-          git diff --quiet || (git add README.md && git commit -m "🔄 Update contributions" && git push)
+          git diff --quiet || (git add README.md .github/data/contributions.json && git commit -m "🔄 Update contributions" && git push)

@@ -1,0 +1,177 @@
+{
+  "prs": [
+    {
+      "repo": "flutter/flutter",
+      "number": 179935,
+      "title": "[flutter_tools] Pass --chrome-binary to app hosting Chrome in flutter drive",
+      "url": "https://github.com/flutter/flutter/pull/179935",
+      "status": "Open",
+      "month": "2025-12",
+      "created_at": "2025-12-16T13:14:48Z",
+      "merged_at": null,
+      "closed_at": null
+    },
+    {
+      "repo": "felangel/bloc",
+      "number": 4707,
+      "title": "docs: add ko `flutter-weather.mdx` translations",
+      "url": "https://github.com/felangel/bloc/pull/4707",
+      "status": "Merged",
+      "month": "2025-12",
+      "created_at": "2025-12-16T12:12:07Z",
+      "merged_at": "2025-12-17T06:00:37Z",
+      "closed_at": "2025-12-17T06:00:37Z"
+    },
+    {
+      "repo": "felangel/bloc",
+      "number": 4706,
+      "title": "docs: add ko `flutter-todos.mdx` translations",
+      "url": "https://github.com/felangel/bloc/pull/4706",
+      "status": "Merged",
+      "month": "2025-12",
+      "created_at": "2025-12-16T12:08:38Z",
+      "merged_at": "2025-12-17T05:56:31Z",
+      "closed_at": "2025-12-17T05:56:31Z"
+    },
+    {
+      "repo": "felangel/bloc",
+      "number": 4705,
+      "title": "docs: add ko `github-search.mdx` translations",
+      "url": "https://github.com/felangel/bloc/pull/4705",
+      "status": "Merged",
+      "month": "2025-12",
+      "created_at": "2025-12-16T12:05:05Z",
+      "merged_at": "2025-12-17T05:51:52Z",
+      "closed_at": "2025-12-17T05:51:52Z"
+    },
+    {
+      "repo": "felangel/bloc",
+      "number": 4704,
+      "title": "docs: add ko `flutter-login.mdx` translations",
+      "url": "https://github.com/felangel/bloc/pull/4704",
+      "status": "Merged",
+      "month": "2025-12",
+      "created_at": "2025-12-16T12:02:43Z",
+      "merged_at": "2025-12-17T05:47:07Z",
+      "closed_at": "2025-12-17T05:47:07Z"
+    },
+    {
+      "repo": "felangel/bloc",
+      "number": 4703,
+      "title": "docs: add ko `flutter-firebase-login.mdx` translations",
+      "url": "https://github.com/felangel/bloc/pull/4703",
+      "status": "Merged",
+      "month": "2025-12",
+      "created_at": "2025-12-16T11:56:46Z",
+      "merged_at": "2025-12-17T05:42:20Z",
+      "closed_at": "2025-12-17T05:42:20Z"
+    },
+    {
+      "repo": "felangel/bloc",
+      "number": 4702,
+      "title": "docs: add ko `flutter-infinite-list.mdx` translations",
+      "url": "https://github.com/felangel/bloc/pull/4702",
+      "status": "Merged",
+      "month": "2025-12",
+      "created_at": "2025-12-16T11:54:33Z",
+      "merged_at": "2025-12-17T05:36:59Z",
+      "closed_at": "2025-12-17T05:36:59Z"
+    },
+    {
+      "repo": "felangel/bloc",
+      "number": 4701,
+      "title": "docs: add ko `flutter-timer.mdx` translations",
+      "url": "https://github.com/felangel/bloc/pull/4701",
+      "status": "Merged",
+      "month": "2025-12",
+      "created_at": "2025-12-16T11:52:21Z",
+      "merged_at": "2025-12-17T05:31:15Z",
+      "closed_at": "2025-12-17T05:31:15Z"
+    },
+    {
+      "repo": "felangel/bloc",
+      "number": 4700,
+      "title": "docs: add ko `flutter-counter` tutorial translation",
+      "url": "https://github.com/felangel/bloc/pull/4700",
+      "status": "Merged",
+      "month": "2025-12",
+      "created_at": "2025-12-16T11:46:07Z",
+      "merged_at": "2025-12-17T05:18:41Z",
+      "closed_at": "2025-12-17T05:18:41Z"
+    },
+    {
+      "repo": "swaggo/swag",
+      "number": 2117,
+      "title": "fix: swag fmt not working with relative path like ../",
+      "url": "https://github.com/swaggo/swag/pull/2117",
+      "status": "Open",
+      "month": "2025-12",
+      "created_at": "2025-12-16T05:19:48Z",
+      "merged_at": null,
+      "closed_at": null
+    },
+    {
+      "repo": "flutter/flutter",
+      "number": 179891,
+      "title": "Suppress deprecated AChoreographer_postFrameCallback warning",
+      "url": "https://github.com/flutter/flutter/pull/179891",
+      "status": "Closed",
+      "month": "2025-12",
+      "created_at": "2025-12-15T16:51:31Z",
+      "merged_at": null,
+      "closed_at": "2025-12-16T18:20:36Z"
+    },
+    {
+      "repo": "flutter/flutter",
+      "number": 179884,
+      "title": "Filter out FrameEvents/updateAcquireFence log spam from adb logcat",
+      "url": "https://github.com/flutter/flutter/pull/179884",
+      "status": "Merged",
+      "month": "2025-12",
+      "created_at": "2025-12-15T14:49:04Z",
+      "merged_at": "2025-12-16T20:24:38Z",
+      "closed_at": "2025-12-16T20:24:38Z"
+    },
+    {
+      "repo": "flutter/flutter",
+      "number": 179881,
+      "title": "Fix RenderParagraph.textAlign setter to call markNeedsLayout",
+      "url": "https://github.com/flutter/flutter/pull/179881",
+      "status": "Open",
+      "month": "2025-12",
+      "created_at": "2025-12-15T14:02:27Z",
+      "merged_at": null,
+      "closed_at": null
+    },
+    {
+      "repo": "swaggo/swag",
+      "number": 2111,
+      "title": "fix: support empty object example value for map[string]struct{}",
+      "url": "https://github.com/swaggo/swag/pull/2111",
+      "status": "Open",
+      "month": "2025-12",
+      "created_at": "2025-12-04T06:36:02Z",
+      "merged_at": null,
+      "closed_at": null
+    },
+    {
+      "repo": "swaggo/swag",
+      "number": 2110,
+      "title": "refactor: replace interface{} with any",
+      "url": "https://github.com/swaggo/swag/pull/2110",
+      "status": "Open",
+      "month": "2025-12",
+      "created_at": "2025-12-04T05:49:58Z",
+      "merged_at": null,
+      "closed_at": null
+    }
+  ],
+  "monthly_stats": {
+    "2025-12": {
+      "merged": 9,
+      "open": 5,
+      "closed": 1,
+      "draft": 0
+    }
+  }
+}
