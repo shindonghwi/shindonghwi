@@ -148,18 +148,19 @@ def generate_readme(data):
     if recent_months:
         lines.append("#### Monthly Stats")
         lines.append("")
-        lines.append("| Month | Merged | Open | Closed |")
-        lines.append("|:---:|:---:|:---:|:---:|")
+        lines.append("| Month | Merged | Open | Closed | Total |")
+        lines.append("|:---:|:---:|:---:|:---:|:---:|")
         for month in recent_months:
             stats = data["monthly_stats"][month]
             m = stats.get("merged", 0)
             o = stats.get("open", 0)
             c = stats.get("closed", 0)
+            t = m + o + c
             # Bold current month
             if month == current_month:
-                lines.append(f"| **{month}** | {m} | {o} | {c} |")
+                lines.append(f"| **{month}** | {m} | {o} | {c} | {t} |")
             else:
-                lines.append(f"| {month} | {m} | {o} | {c} |")
+                lines.append(f"| {month} | {m} | {o} | {c} | {t} |")
         lines.append("")
 
     # Past merged highlights

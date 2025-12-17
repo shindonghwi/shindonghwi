@@ -35,8 +35,8 @@
 
 #### Monthly Stats
 
-| Month | Merged | Open | Closed |
-|:---:|:---:|:---:|:---:|
-| **2025-12** | 9 | 5 | 1 |
+| Month | Merged | Open | Closed | Total |
+|:---:|:---:|:---:|:---:|:---:|
+| **2025-12** | 9 | 5 | 1 | 15 |
 
 <!--END_SECTION:contributions-->
