@@ -129,7 +129,7 @@ def generate_readme(data):
 
     # Current month section
     if current_prs or open_prs:
-        lines.append(f"#### {now.strftime('%Y년 %m월')}")
+        lines.append(f"#### {now.strftime('%B %Y')}")
         lines.append("")
 
         seen = set()
@@ -138,7 +138,15 @@ def generate_readme(data):
             if key in seen:
                 continue
             seen.add(key)
-            lines.append(f"- `{pr['status']}` [{pr['repo']}#{pr['number']}]({pr['url']}) — {pr['title']}")
+            # Get date based on status
+            if pr["status"] == "Merged" and pr.get("merged_at"):
+                date_str = pr["merged_at"][:10]  # "2024-12-17"
+            elif pr["status"] == "Closed" and pr.get("closed_at"):
+                date_str = pr["closed_at"][:10]
+            else:
+                date_str = pr.get("created_at", "")[:10]
+            date_display = date_str[5:] if date_str else ""  # "12-17"
+            lines.append(f"- `{pr['status']}` `{date_display}` [{pr['repo']}#{pr['number']}]({pr['url']}) — {pr['title']}")
         lines.append("")
 
     # Monthly stats table
