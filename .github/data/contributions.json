@@ -181,11 +181,11 @@
       "number": 7124,
       "title": "perf: use set instead of list for O(1) lookups in cookie operations",
       "url": "https://github.com/psf/requests/pull/7124",
-      "status": "Open",
+      "status": "Closed",
       "month": "2025-12",
       "created_at": "2025-12-18T14:47:26Z",
       "merged_at": null,
-      "closed_at": null
+      "closed_at": "2025-12-19T03:03:48Z"
     },
     {
       "repo": "psf/requests",
@@ -230,13 +230,46 @@
       "created_at": "2025-12-18T00:10:59Z",
       "merged_at": null,
       "closed_at": null
+    },
+    {
+      "repo": "encode/httpx",
+      "number": 3735,
+      "title": "perf: remove redundant .lower() calls in Headers",
+      "url": "https://github.com/encode/httpx/pull/3735",
+      "status": "Open",
+      "month": "2025-12",
+      "created_at": "2025-12-19T03:41:24Z",
+      "merged_at": null,
+      "closed_at": null
+    },
+    {
+      "repo": "psf/requests",
+      "number": 7128,
+      "title": "fix: handle empty string cookie values correctly",
+      "url": "https://github.com/psf/requests/pull/7128",
+      "status": "Open",
+      "month": "2025-12",
+      "created_at": "2025-12-19T03:24:49Z",
+      "merged_at": null,
+      "closed_at": null
+    },
+    {
+      "repo": "psf/requests",
+      "number": 7127,
+      "title": "fix: use context manager for ZipFile in extract_zipped_paths",
+      "url": "https://github.com/psf/requests/pull/7127",
+      "status": "Open",
+      "month": "2025-12",
+      "created_at": "2025-12-19T02:40:38Z",
+      "merged_at": null,
+      "closed_at": null
     }
   ],
   "monthly_stats": {
     "2025-12": {
       "merged": 10,
-      "open": 9,
-      "closed": 2,
+      "open": 11,
+      "closed": 3,
       "draft": 0
     }
   }

@@ -17,7 +17,10 @@
 <!--START_SECTION:contributions-->
 #### December 2025
 
-- `Open` `12-18` [psf/requests#7124](https://github.com/psf/requests/pull/7124) — perf: use set instead of list for O(1) lookups in cookie operations
+- `Open` `12-19` [encode/httpx#3735](https://github.com/encode/httpx/pull/3735) — perf: remove redundant .lower() calls in Headers
+- `Open` `12-19` [psf/requests#7128](https://github.com/psf/requests/pull/7128) — fix: handle empty string cookie values correctly
+- `Closed` `12-19` [psf/requests#7124](https://github.com/psf/requests/pull/7124) — perf: use set instead of list for O(1) lookups in cookie operations
+- `Open` `12-19` [psf/requests#7127](https://github.com/psf/requests/pull/7127) — fix: use context manager for ZipFile in extract_zipped_paths
 - `Open` `12-18` [psf/requests#7123](https://github.com/psf/requests/pull/7123) — fix: preserve custom CookiePolicy in Session.prepare_request
 - `Open` `12-18` [go-playground/validator#1510](https://github.com/go-playground/validator/pull/1510) — fix: add missing translations for alpha validators
 - `Merged` `12-18` [swaggo/swag#2110](https://github.com/swaggo/swag/pull/2110) — refactor: replace interface{} with any
@@ -43,6 +46,6 @@
 
 | Month | Merged | Open | Closed | Total |
 |:---:|:---:|:---:|:---:|:---:|
-| **2025-12** | 10 | 9 | 2 | 21 |
+| **2025-12** | 10 | 11 | 3 | 24 |
 
 <!--END_SECTION:contributions-->
