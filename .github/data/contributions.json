@@ -159,11 +159,11 @@
       "number": 2110,
       "title": "refactor: replace interface{} with any",
       "url": "https://github.com/swaggo/swag/pull/2110",
-      "status": "Open",
+      "status": "Merged",
       "month": "2025-12",
       "created_at": "2025-12-04T05:49:58Z",
-      "merged_at": null,
-      "closed_at": null
+      "merged_at": "2025-12-18T07:13:01Z",
+      "closed_at": "2025-12-18T07:13:01Z"
     },
     {
       "repo": "rrousselGit/riverpod",
@@ -175,12 +175,67 @@
       "created_at": "2025-12-17T14:07:52Z",
       "merged_at": null,
       "closed_at": "2025-12-17T14:24:02Z"
+    },
+    {
+      "repo": "psf/requests",
+      "number": 7124,
+      "title": "perf: use set instead of list for O(1) lookups in cookie operations",
+      "url": "https://github.com/psf/requests/pull/7124",
+      "status": "Open",
+      "month": "2025-12",
+      "created_at": "2025-12-18T14:47:26Z",
+      "merged_at": null,
+      "closed_at": null
+    },
+    {
+      "repo": "psf/requests",
+      "number": 7123,
+      "title": "fix: preserve custom CookiePolicy in Session.prepare_request",
+      "url": "https://github.com/psf/requests/pull/7123",
+      "status": "Open",
+      "month": "2025-12",
+      "created_at": "2025-12-18T13:24:49Z",
+      "merged_at": null,
+      "closed_at": null
+    },
+    {
+      "repo": "go-playground/validator",
+      "number": 1510,
+      "title": "fix: add missing translations for alpha validators",
+      "url": "https://github.com/go-playground/validator/pull/1510",
+      "status": "Open",
+      "month": "2025-12",
+      "created_at": "2025-12-18T08:50:58Z",
+      "merged_at": null,
+      "closed_at": null
+    },
+    {
+      "repo": "go-playground/validator",
+      "number": 1508,
+      "title": "fix: resolve panic when using cross-field validators with ValidateMap",
+      "url": "https://github.com/go-playground/validator/pull/1508",
+      "status": "Open",
+      "month": "2025-12",
+      "created_at": "2025-12-18T05:12:53Z",
+      "merged_at": null,
+      "closed_at": null
+    },
+    {
+      "repo": "go-playground/validator",
+      "number": 1507,
+      "title": "fix: resolve panic when using aliases with OR operator",
+      "url": "https://github.com/go-playground/validator/pull/1507",
+      "status": "Open",
+      "month": "2025-12",
+      "created_at": "2025-12-18T00:10:59Z",
+      "merged_at": null,
+      "closed_at": null
     }
   ],
   "monthly_stats": {
     "2025-12": {
-      "merged": 9,
-      "open": 5,
+      "merged": 10,
+      "open": 9,
       "closed": 2,
       "draft": 0
     }

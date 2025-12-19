@@ -17,6 +17,12 @@
 <!--START_SECTION:contributions-->
 #### December 2025
 
+- `Open` `12-18` [psf/requests#7124](https://github.com/psf/requests/pull/7124) — perf: use set instead of list for O(1) lookups in cookie operations
+- `Open` `12-18` [psf/requests#7123](https://github.com/psf/requests/pull/7123) — fix: preserve custom CookiePolicy in Session.prepare_request
+- `Open` `12-18` [go-playground/validator#1510](https://github.com/go-playground/validator/pull/1510) — fix: add missing translations for alpha validators
+- `Merged` `12-18` [swaggo/swag#2110](https://github.com/swaggo/swag/pull/2110) — refactor: replace interface{} with any
+- `Open` `12-18` [go-playground/validator#1508](https://github.com/go-playground/validator/pull/1508) — fix: resolve panic when using cross-field validators with ValidateMap
+- `Open` `12-18` [go-playground/validator#1507](https://github.com/go-playground/validator/pull/1507) — fix: resolve panic when using aliases with OR operator
 - `Closed` `12-17` [rrousselGit/riverpod#4631](https://github.com/rrousselGit/riverpod/pull/4631) — fix: reset _didChangeDependency flag properly in invalidateSelf
 - `Merged` `12-17` [felangel/bloc#4707](https://github.com/felangel/bloc/pull/4707) — docs: add ko `flutter-weather.mdx` translations
 - `Merged` `12-17` [felangel/bloc#4706](https://github.com/felangel/bloc/pull/4706) — docs: add ko `flutter-todos.mdx` translations
@@ -32,12 +38,11 @@
 - `Open` `12-16` [swaggo/swag#2117](https://github.com/swaggo/swag/pull/2117) — fix: swag fmt not working with relative path like ../
 - `Open` `12-15` [flutter/flutter#179881](https://github.com/flutter/flutter/pull/179881) — Fix RenderParagraph.textAlign setter to call markNeedsLayout
 - `Open` `12-04` [swaggo/swag#2111](https://github.com/swaggo/swag/pull/2111) — fix: support empty object example value for map[string]struct{}
-- `Open` `12-04` [swaggo/swag#2110](https://github.com/swaggo/swag/pull/2110) — refactor: replace interface{} with any
 
 #### Monthly Stats
 
 | Month | Merged | Open | Closed | Total |
 |:---:|:---:|:---:|:---:|:---:|
-| **2025-12** | 9 | 5 | 2 | 16 |
+| **2025-12** | 10 | 9 | 2 | 21 |
 
 <!--END_SECTION:contributions-->
