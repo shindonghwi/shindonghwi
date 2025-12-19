@@ -1,4 +1,6 @@
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 import re
 import json
 import os
@@ -6,11 +8,21 @@ from datetime import datetime
 
 USERNAME = "shindonghwi"
 DATA_FILE = ".github/data/contributions.json"
+REQUEST_TIMEOUT = 30
 
 EXCLUDED_OWNERS = [
     USERNAME,
     "teampmm",
 ]
+
+def create_session():
+    session = requests.Session()
+    retry = Retry(total=3, backoff_factor=1, status_forcelist=[429, 500, 502, 503, 504])
+    adapter = HTTPAdapter(max_retries=retry)
+    session.mount("https://", adapter)
+    return session
+
+SESSION = create_session()
 
 def load_data():
     if os.path.exists(DATA_FILE):
@@ -24,17 +36,23 @@ def save_data(data):
 
 def get_pr_details(repo, number):
     url = f"https://api.github.com/repos/{repo}/pulls/{number}"
-    response = requests.get(url)
-    if response.status_code != 200:
+    try:
+        response = SESSION.get(url, timeout=REQUEST_TIMEOUT)
+        if response.status_code != 200:
+            return None
+        return response.json()
+    except requests.exceptions.RequestException:
         return None
-    return response.json()
 
 def get_all_prs():
     url = f"https://api.github.com/search/issues?q=author:{USERNAME}+is:pr&sort=created&order=desc&per_page=100"
-    response = requests.get(url)
-    if response.status_code != 200:
+    try:
+        response = SESSION.get(url, timeout=REQUEST_TIMEOUT)
+        if response.status_code != 200:
+            return []
+        return response.json().get("items", [])
+    except requests.exceptions.RequestException:
         return []
-    return response.json().get("items", [])
 
 def extract_month(date_str):
     if not date_str:
