@@ -2,7 +2,7 @@ name: Readme Update Contributions
 
 on:
   schedule:
-    - cron: '0 16 * * *'  # 오전 1시 KST (UTC+9)
+    - cron: '30 15 * * *'  # 오전 0시 30분 KST (UTC+9)
   workflow_dispatch:
 
 jobs:
