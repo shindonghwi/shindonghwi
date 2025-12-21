@@ -17,6 +17,7 @@
 <!--START_SECTION:contributions-->
 #### December 2025
 
+- `Open` `12-21` [fleaflet/flutter_map#2174](https://github.com/fleaflet/flutter_map/pull/2174) — fix: correct coordinate calculation in _retainChildren recursion
 - `Open` `12-19` [encode/httpx#3735](https://github.com/encode/httpx/pull/3735) — perf: remove redundant .lower() calls in Headers
 - `Open` `12-19` [psf/requests#7128](https://github.com/psf/requests/pull/7128) — fix: handle empty string cookie values correctly
 - `Closed` `12-19` [psf/requests#7124](https://github.com/psf/requests/pull/7124) — perf: use set instead of list for O(1) lookups in cookie operations
@@ -46,6 +47,6 @@
 
 | Month | Merged | Open | Closed | Total |
 |:---:|:---:|:---:|:---:|:---:|
-| **2025-12** | 10 | 11 | 3 | 24 |
+| **2025-12** | 10 | 12 | 3 | 25 |
 
 <!--END_SECTION:contributions-->
