@@ -17,16 +17,17 @@
 <!--START_SECTION:contributions-->
 #### December 2025
 
-- `Open` `12-21` [fleaflet/flutter_map#2174](https://github.com/fleaflet/flutter_map/pull/2174) — fix: correct coordinate calculation in _retainChildren recursion
+- `Closed` `12-22` [anthropics/skills#164](https://github.com/anthropics/skills/pull/164) — Remove unsupported .xlsx from validate.py assertion
+- `Merged` `12-21` [go-playground/validator#1508](https://github.com/go-playground/validator/pull/1508) — fix: resolve panic when using cross-field validators with ValidateMap
+- `Merged` `12-21` [go-playground/validator#1507](https://github.com/go-playground/validator/pull/1507) — fix: resolve panic when using aliases with OR operator
+- `Merged` `12-21` [go-playground/validator#1510](https://github.com/go-playground/validator/pull/1510) — fix: add missing translations for alpha validators
+- `Merged` `12-21` [fleaflet/flutter_map#2174](https://github.com/fleaflet/flutter_map/pull/2174) — fix: correct coordinate calculation in `_retainChildren` recursion
 - `Open` `12-19` [encode/httpx#3735](https://github.com/encode/httpx/pull/3735) — perf: remove redundant .lower() calls in Headers
 - `Open` `12-19` [psf/requests#7128](https://github.com/psf/requests/pull/7128) — fix: handle empty string cookie values correctly
 - `Closed` `12-19` [psf/requests#7124](https://github.com/psf/requests/pull/7124) — perf: use set instead of list for O(1) lookups in cookie operations
 - `Open` `12-19` [psf/requests#7127](https://github.com/psf/requests/pull/7127) — fix: use context manager for ZipFile in extract_zipped_paths
 - `Open` `12-18` [psf/requests#7123](https://github.com/psf/requests/pull/7123) — fix: preserve custom CookiePolicy in Session.prepare_request
-- `Open` `12-18` [go-playground/validator#1510](https://github.com/go-playground/validator/pull/1510) — fix: add missing translations for alpha validators
 - `Merged` `12-18` [swaggo/swag#2110](https://github.com/swaggo/swag/pull/2110) — refactor: replace interface{} with any
-- `Open` `12-18` [go-playground/validator#1508](https://github.com/go-playground/validator/pull/1508) — fix: resolve panic when using cross-field validators with ValidateMap
-- `Open` `12-18` [go-playground/validator#1507](https://github.com/go-playground/validator/pull/1507) — fix: resolve panic when using aliases with OR operator
 - `Closed` `12-17` [rrousselGit/riverpod#4631](https://github.com/rrousselGit/riverpod/pull/4631) — fix: reset _didChangeDependency flag properly in invalidateSelf
 - `Merged` `12-17` [felangel/bloc#4707](https://github.com/felangel/bloc/pull/4707) — docs: add ko `flutter-weather.mdx` translations
 - `Merged` `12-17` [felangel/bloc#4706](https://github.com/felangel/bloc/pull/4706) — docs: add ko `flutter-todos.mdx` translations
@@ -47,6 +48,6 @@
 
 | Month | Merged | Open | Closed | Total |
 |:---:|:---:|:---:|:---:|:---:|
-| **2025-12** | 10 | 12 | 3 | 25 |
+| **2025-12** | 14 | 8 | 4 | 26 |
 
 <!--END_SECTION:contributions-->
