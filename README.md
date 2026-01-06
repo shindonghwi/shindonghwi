@@ -8,7 +8,7 @@
 ### Libraries
 
 <!--START_SECTION:libraries-->
-- [@sognora/ui](https://www.npmjs.com/package/@sognora/ui) · `v0.3.33` · 2025-12-31<br>`react` `ui` `components` `sognora` `design-system`
+- [@sognora/ui](https://www.npmjs.com/package/@sognora/ui) · `v0.3.34` · 2026-01-06<br>`react` `ui` `components` `sognora` `design-system`
 <!--END_SECTION:libraries-->
 
 
