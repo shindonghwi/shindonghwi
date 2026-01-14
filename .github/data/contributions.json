@@ -137,11 +137,11 @@
       "number": 179881,
       "title": "Fix RenderParagraph.textAlign setter to call markNeedsLayout",
       "url": "https://github.com/flutter/flutter/pull/179881",
-      "status": "Open",
-      "month": "2025-12",
+      "status": "Closed",
+      "month": "2026-01",
       "created_at": "2025-12-15T14:02:27Z",
       "merged_at": null,
-      "closed_at": null
+      "closed_at": "2026-01-13T23:33:32Z"
     },
     {
       "repo": "swaggo/swag",
@@ -290,8 +290,14 @@
   "monthly_stats": {
     "2025-12": {
       "merged": 14,
-      "open": 8,
+      "open": 7,
       "closed": 4,
+      "draft": 0
+    },
+    "2026-01": {
+      "merged": 0,
+      "open": 0,
+      "closed": 1,
       "draft": 0
     }
   }

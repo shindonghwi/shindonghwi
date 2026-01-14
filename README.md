@@ -17,20 +17,21 @@
 <!--START_SECTION:contributions-->
 #### January 2026
 
+- `Closed` `01-13` [flutter/flutter#179881](https://github.com/flutter/flutter/pull/179881) — Fix RenderParagraph.textAlign setter to call markNeedsLayout
 - `Open` `12-19` [encode/httpx#3735](https://github.com/encode/httpx/pull/3735) — perf: remove redundant .lower() calls in Headers
 - `Open` `12-19` [psf/requests#7128](https://github.com/psf/requests/pull/7128) — fix: handle empty string cookie values correctly
 - `Open` `12-19` [psf/requests#7127](https://github.com/psf/requests/pull/7127) — fix: use context manager for ZipFile in extract_zipped_paths
 - `Open` `12-18` [psf/requests#7123](https://github.com/psf/requests/pull/7123) — fix: preserve custom CookiePolicy in Session.prepare_request
 - `Open` `12-16` [flutter/flutter#179935](https://github.com/flutter/flutter/pull/179935) — [flutter_tools] Pass --chrome-binary to app hosting Chrome in flutter drive
 - `Open` `12-16` [swaggo/swag#2117](https://github.com/swaggo/swag/pull/2117) — fix: swag fmt not working with relative path like ../
-- `Open` `12-15` [flutter/flutter#179881](https://github.com/flutter/flutter/pull/179881) — Fix RenderParagraph.textAlign setter to call markNeedsLayout
 - `Open` `12-04` [swaggo/swag#2111](https://github.com/swaggo/swag/pull/2111) — fix: support empty object example value for map[string]struct{}
 
 #### Monthly Stats
 
 | Month | Merged | Open | Closed | Total |
 |:---:|:---:|:---:|:---:|:---:|
-| 2025-12 | 14 | 8 | 4 | 26 |
+| **2026-01** | 0 | 0 | 1 | 1 |
+| 2025-12 | 14 | 7 | 4 | 25 |
 
 <details>
 <summary>Past Merged PRs</summary>
