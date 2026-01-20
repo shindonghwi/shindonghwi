@@ -1,5 +1,7 @@
 # Shin Dong Hwi
 
+![GitHub Farmer](./github-farmer.gif)
+
 **Role** · Mobile & Backend Developer<br>
 **Email** · shindonghwi8940@gmail.com<br>
 **Phone** · +82 10-8940-6835
