@@ -4,8 +4,6 @@
 **Email** · shindonghwi8940@gmail.com<br>
 **Phone** · +82 10-8940-6835
 
-[![GitHub Farmer](https://img.shields.io/badge/GitHub%20Farmer-Play%20Now-39d353)](https://github-farmer.vercel.app/shindonghwi)
-
 ### Libraries
 
 <!--START_SECTION:libraries-->
