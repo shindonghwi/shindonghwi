@@ -17,3 +17,4 @@ jobs:
       - uses: shindonghwi/github-farmer@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
+          username: shindonghwi
