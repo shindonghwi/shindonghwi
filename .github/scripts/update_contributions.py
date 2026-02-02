@@ -77,19 +77,18 @@ def process_prs(data):
         if not pr_details:
             continue
 
-        # Determine status
+        # Determine status and month
+        # month는 항상 생성일 기준으로 저장 (기여 시점 추적용)
+        created_month = extract_month(pr_details.get("created_at"))
+        
         if pr_details.get("merged"):
             status = "Merged"
-            month = extract_month(pr_details.get("merged_at"))
         elif pr_details.get("state") == "closed":
             status = "Closed"
-            month = extract_month(pr_details.get("closed_at"))
         elif pr_details.get("draft"):
             status = "Draft"
-            month = extract_month(pr_details.get("created_at"))
         else:
             status = "Open"
-            month = extract_month(pr_details.get("created_at"))
 
         pr_data = {
             "repo": repo,
@@ -97,7 +96,7 @@ def process_prs(data):
             "title": item["title"],
             "url": item["html_url"],
             "status": status,
-            "month": month,
+            "month": created_month,  # 항상 생성일 기준
             "created_at": pr_details.get("created_at"),
             "merged_at": pr_details.get("merged_at"),
             "closed_at": pr_details.get("closed_at"),
@@ -135,18 +134,25 @@ def generate_readme(data):
     now = datetime.now()
     current_month = now.strftime("%Y-%m")
 
-    # Current month PRs
-    current_prs = [pr for pr in data["prs"] if pr.get("month") == current_month]
-    # Open PRs (regardless of month)
-    open_prs = [pr for pr in data["prs"] if pr["status"] == "Open"]
+    # 현재 월에 완료된 PR (merged/closed)
+    current_month_completed = [pr for pr in data["prs"] 
+                               if pr.get("month") == current_month 
+                               and pr["status"] in ["Merged", "Closed"]]
+    
+    # Open/Draft PR은 월과 관계없이 모두 표시 (진행 중인 작업)
+    active_prs = [pr for pr in data["prs"] if pr["status"] in ["Open", "Draft"]]
+    
     # Recent merged (not current month)
-    past_merged = [pr for pr in data["prs"] if pr["status"] == "Merged" and pr.get("month") != current_month]
+    past_merged = [pr for pr in data["prs"] 
+                   if pr["status"] == "Merged" 
+                   and pr.get("month") != current_month]
     past_merged = sorted(past_merged, key=lambda x: x.get("merged_at", ""), reverse=True)[:10]
 
     lines = []
 
     # Current month section
-    if current_prs or open_prs:
+    all_current = current_month_completed + active_prs
+    if all_current:
         lines.append(f"#### {now.strftime('%B %Y')}")
         lines.append("")
 
@@ -158,7 +164,7 @@ def generate_readme(data):
                 return pr["closed_at"]
             return pr.get("created_at", "")
 
-        all_prs = sorted(current_prs + open_prs, key=get_sort_date, reverse=True)
+        all_prs = sorted(all_current, key=get_sort_date, reverse=True)
 
         seen = set()
         for pr in all_prs:
@@ -166,9 +172,10 @@ def generate_readme(data):
             if key in seen:
                 continue
             seen.add(key)
+            
             # Get date based on status
             if pr["status"] == "Merged" and pr.get("merged_at"):
-                date_str = pr["merged_at"][:10]  # "2024-12-17"
+                date_str = pr["merged_at"][:10]
             elif pr["status"] == "Closed" and pr.get("closed_at"):
                 date_str = pr["closed_at"][:10]
             else:
