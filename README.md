@@ -28,8 +28,7 @@
 
 | Month | Merged | Open | Closed | Total |
 |:---:|:---:|:---:|:---:|:---:|
-| 2026-01 | 0 | 0 | 1 | 1 |
-| 2025-12 | 14 | 7 | 4 | 25 |
+| 2025-12 | 14 | 7 | 5 | 26 |
 
 <details>
 <summary>Past Merged PRs</summary>
