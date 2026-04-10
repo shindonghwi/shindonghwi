@@ -4,8 +4,6 @@
 **Email** · shindonghwi8940@gmail.com<br>
 **Phone** · +82 10-8940-6835
 
-![AI Token Monitor](https://giunmtxxvapcgrpxjopq.supabase.co/functions/v1/badge/58daca8a-d404-48a1-9924-ee7831b9e7b7?provider=claude&period=today&style=card)
-
 ### Libraries
 
 <!--START_SECTION:libraries-->
