@@ -4,6 +4,9 @@
 **Email** · shindonghwi8940@gmail.com<br>
 **Phone** · +82 10-8940-6835
 
+[![Tokscale Stats](https://tokscale.ai/api/embed/shindonghwi/svg)](https://tokscale.ai/u/shindonghwi)
+
+
 ### Libraries
 
 <!--START_SECTION:libraries-->
