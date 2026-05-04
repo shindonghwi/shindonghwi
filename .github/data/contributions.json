@@ -5,11 +5,11 @@
       "number": 179935,
       "title": "[flutter_tools] Pass --chrome-binary to app hosting Chrome in flutter drive",
       "url": "https://github.com/flutter/flutter/pull/179935",
-      "status": "Open",
+      "status": "Closed",
       "month": "2025-12",
       "created_at": "2025-12-16T13:14:48Z",
       "merged_at": null,
-      "closed_at": null
+      "closed_at": "2026-05-04T14:22:43Z"
     },
     {
       "repo": "felangel/bloc",
@@ -323,8 +323,8 @@
   "monthly_stats": {
     "2025-12": {
       "merged": 14,
-      "open": 6,
-      "closed": 6,
+      "open": 5,
+      "closed": 7,
       "draft": 0
     },
     "2026-03": {
